@@ -166,7 +166,7 @@ atom_replication_clipboard_delete_obsolete_items: True
 # Services to be restarted on AtoM read-only host after replication
 atom_replication_ro_nginx_restart_services:
   - "memcached"
-  - "php-7.4fpm"
+  - "php7.4-fpm"
   - "atom-worker-ro"
 
 
